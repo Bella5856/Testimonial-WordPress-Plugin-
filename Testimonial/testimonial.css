@@ -1,0 +1,39 @@
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.testimonial-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  flex-basis: calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+.testimonial-rating {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.testimonial-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial-date {
+  text-align: end;
+  font-size: 0.7em;
+}
